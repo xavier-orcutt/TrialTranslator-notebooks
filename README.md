@@ -21,4 +21,4 @@ There are 8 notebooks found in each cancer file:
 8. rtrials_wt3r_33c: Reproducing landmark clinical trials across 3 risk groups  
 
 ## Website
-See [here] (https://github.com/xavier-orcutt/boosted_forecaster) for the website version of this project. 
+See [here](https://github.com/xavier-orcutt/boosted_forecaster) for the website version of this project. 
