@@ -1,4 +1,4 @@
-# rct_generalizability_flatiron
+# TrialTranslator
 
 ## Introduction
 The aim of this project is to reproduce landmark oncology randomized controlled trials (RCTs) and to assess their generalizability to patients in routine clinical practice. A total of 11 RCTs were reproduced across 4 different cancer types: advanced NSCLC, metastatic breast, metastaic prostate, and metastatic colorectal. 
