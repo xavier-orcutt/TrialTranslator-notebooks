@@ -3,7 +3,7 @@
 ## Introduction
 The aim of this project is to reproduce landmark oncology randomized controlled trials (RCTs) and to assess their generalizability to patients in routine clinical practice. A total of 11 RCTs were reproduced across 4 different cancer types: advanced NSCLC, metastatic breast, metastaic prostate, and metastatic colorectal. 
 
-A machine-learning (ML) survival model was constructed for each of the 4 cancers. Next, the ML models stratified patients into 3 survival risk groups. Landmark RCTs were then simulated for each risk group using inverse probability of treatment-weighted survival analyses.
+A machine-learning (ML) survival model was constructed for each of the 4 cancers. Next, the ML models stratified patients into 3 survival risk groups. Landmark RCTs were then simulated for each risk group using inverse probability of treatment-weighted survival analyses with Kaplan-Meier method.
 
 Flatiron Health data was used to train and test the ML survival models and to reproduce the RCTs in-silico. 
 
