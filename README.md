@@ -10,7 +10,7 @@ Flatiron Health data was used to train and test the ML survival models and to re
 ## Notebooks
 The project was coded in Python using Jupyter Notebooks. See requirement.txt for necessary packages and versions to run notebooks. 
 
-Each cancer file has 9 notebooks: 
+Each cancer file has 10 notebooks: 
 1. data_wranging_tr: Data wranging of the training set
 2. data_wranging_te: Data wrangling of the test set 
 3. crude_model_build: Building ML survival models using a crude imputation strategy
@@ -19,7 +19,8 @@ Each cancer file has 9 notebooks:
 6. discrim_performance: Plotting the time-dependent AUCs for all ML models and Cox model 
 7. gbm_final_build: Building the final gradient-boosted survival model 
 8. rtrials_wt3r_33c: Reproducing landmark clinical trials across 3 risk groups using relaxed inclusion criteria
-9. strials_wt3r_33c: Reproducing landmark clinical trials across 3 risk groups using strict inclusion criteria  
+9. strials_wt3r_33c: Reproducing landmark clinical trials across 3 risk groups using strict inclusion criteria
+10. rtrials_wt3r_33c_dc: Reproducing landmark clinical trials across 3 risk groups using relaxed inclusion criteria and ensuring patients receiving chemotherapy receive appropriate dosing
 
 ## Website
 See [here](https://github.com/xavier-orcutt/boosted-forecaster) for the website version of this project. 
