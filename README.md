@@ -10,16 +10,19 @@ Flatiron Health data was used for both training the machine learning models and 
 ## Notebooks
 The project was coded in Python using Jupyter Notebooks. See requirement.txt for necessary packages and versions to run notebooks. 
 
-Each cancer file has 10 notebooks: 
+Each cancer file has the following notebooks: 
 1. data_wranging_tr: Data wranging of the training set
 2. data_wranging_te: Data wrangling of the test set 
 3. crude_model_build: Building ML survival models using a median imputation strategy
 4. cox_model_build: Building a standard Cox model
 5. mice_gbm_build: Building gradient-boosted survival models with multiple imputation strategy 
 6. gbm_final_build: Building the final gradient-boosted survival model 
-7. rtrials_wt3r_33c: Reproducing landmark clinical trials across phenotypes using key inclusion criteria
-8. strials_wt3r_33c: Reproducing landmark clinical trials across phenotypes using strict inclusion criteria
-9. rtrials_wt3r_33c_dc: Reproducing landmark clinical trials across phenotypes using and ensuring appropriate upfront dosing of chemotherapeutics 
+7. rtrials_wt3r_33c: Kaplan-Meier curves for landmark clinical trials across phenotypes using key inclusion criteria
+8. rtrials_wt3r_33c_surv_metrics: Survival metrics (HR, RMST, mOS) for landmark clinical trials across phenotypes using key inclusion criteria
+9. strials_wt3r_33c: Kaplan-Meier curves for landmark clinical trials across phenotypes using strict inclusion criteria
+10. strials_wt3r_33c_surv_metrics: Survival metrics (HR, RMST, mOS) for landmark clinical trials across phenotypes using strict inclusion criteria
+11. rtrials_wt3r_33c_dc: Kaplan-Meier curves landmark clinical trials across phenotypes while ensuring appropriate upfront dosing of chemotherapeutics 
+12. rtrials_wt3r_33c_dc_surv_metrics: Survival metrics (HR, RMST, mOS) for landmark clinical trials across phenotypes using while ensuring appropriate upfront dosing of chemotherapeutics 
 
 ## Website
 See [here](https://github.com/xavier-orcutt/TrialTranslator-webtool) for the website version of this project. 
