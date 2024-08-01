@@ -1,7 +1,7 @@
 # TrialTranslator
 
 ## Introduction
-The aim of this project is expose heterogenity of treatment effect in real-world oncology patients by emulating Phase III RCTs across prognostic phenotypes identified through a a machine learnign algroithm. A total of 11 RCTs were reproduced across 4 different cancer types: advanced NSCLC, metastatic breast, metastaic prostate, and metastatic colorectal. 
+The aim of this project is expose heterogenity of treatment effect in real-world oncology patients by emulating Phase III RCTs across prognostic phenotypes identified through a a machine learning algroithm. A total of 11 RCTs were reproduced across 4 different cancer types: advanced NSCLC, metastatic breast, metastaic prostate, and metastatic colorectal. 
 
 A machine-learning survival model was constructed for each of the 4 cancers. Next, the ML models stratified patients into 3 mortality phenotype (low, medium, and high). Landmark RCTs were then emulated for each phenotype and survival metrics (eg., restricted mean survival time and median overall survival) were estimated by a inverse probabiliy of treatment weighted Kaplan-Meier survival curve. 
 
