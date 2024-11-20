@@ -16,10 +16,9 @@ There are 4 cancer specific directories (lung, breast, colorectal, and prostate)
 3. crude_model_build: Building ML survival models using a median imputation strategy
 4. cox_model_build: Building a standard Cox model
 5. mice_gbm_build: Building gradient-boosted survival models with MICE
-6. gbm_final_build: Building the final gradient-boosted survival model 
-7. rtrials_wt3r_33c_surv_metrics: Survival metrics (HR, RMST, mOS) for landmark clinical trials across phenotypes using key inclusion criteria
-8. strials_wt3r_33c_surv_metrics: Survival metrics (HR, RMST, mOS) for landmark clinical trials across phenotypes using strict inclusion criteria
-9. rtrials_wt3r_33c_dc_surv_metrics: Survival metrics (HR, RMST, mOS) for landmark clinical trials across phenotypes using while ensuring appropriate upfront dosing of chemotherapeutics 
+6. rtrials_wt3r_33c_surv_metrics: Survival metrics (HR, RMST, mOS) for landmark clinical trials across phenotypes using key inclusion criteria
+7. strials_wt3r_33c_surv_metrics: Survival metrics (HR, RMST, mOS) for landmark clinical trials across phenotypes using strict inclusion criteria
+8. rtrials_wt3r_33c_dc_surv_metrics: Survival metrics (HR, RMST, mOS) for landmark clinical trials across phenotypes using while ensuring appropriate upfront dosing of chemotherapeutics 
 
 ## Website
 Visit [here](https://trialtranslator.com) for the website version of this project. 
