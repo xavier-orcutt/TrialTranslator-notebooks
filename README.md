@@ -17,7 +17,7 @@ There are 4 cancer specific directories (lung, breast, colorectal, and prostate)
 4. cox_model_build: Building a standard Cox model
 5. mice_gbm_build: Building gradient-boosted survival models with MICE
 6. patient_risk_score: calculating patient risk scores using GBM 
-7. final_model_build: GBM built over entire data set to be used for the webtool 
+7. final_model_build: A final GBM was trained over the complete dataset for deployment in the webtool
 8. rtrials_wt3r_33c_surv_metrics: Survival metrics (HR, RMST, mOS) for landmark clinical trials across phenotypes using key inclusion criteria
 9. strials_wt3r_33c_surv_metrics: Survival metrics (HR, RMST, mOS) for landmark clinical trials across phenotypes using strict inclusion criteria
 10. rtrials_wt3r_33c_dc_surv_metrics: Survival metrics (HR, RMST, mOS) for landmark clinical trials across phenotypes using while ensuring appropriate upfront dosing of chemotherapeutics 
