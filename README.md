@@ -13,9 +13,9 @@ The project was coded in Python. The required packaged can be found in the requi
 There are 4 cancer specific directories (lung, breast, colorectal, and prostate). Each contains the following notebooks: 
 1. data_wranging_tr: Data wranging of the training set
 2. data_wranging_te: Data wrangling of the test set 
-3. crude_model_build: Building ML survival models using a median imputation strategy
-4. cox_model_build: Building a standard Cox model
-5. mice_gbm_build: Building gradient-boosted survival models with MICE
+3. crude_model_build: Building various ML survival models using a median imputation strategy
+4. cox_model_build: Building a standard Cox model inspired by retrospective study
+5. mice_gbm_build: Building a gradient boosting survival model with MICE
 6. patient_risk_score: calculating patient risk scores using GBM 
 7. final_model_build: A final GBM was trained over the complete dataset for deployment in the webtool
 8. rtrials_wt3r_33c_surv_metrics: Survival metrics (HR, RMST, mOS) for landmark clinical trials across phenotypes using key inclusion criteria
