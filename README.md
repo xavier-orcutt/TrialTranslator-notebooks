@@ -17,15 +17,15 @@ The repository is organized into four cancer-specific directories (lung, breast,
   * data_wrangling_te: Preprocesses the test dataset
 
 2. Model Development
-  * crude_model_build: Implements various ML survival models using median imputation
+  * crude_model_build: Trains various ML survival models using median imputation
   * cox_model_build: Develops a standard Cox proportional hazards model based on retrospective study findings
-  * mice_gbm_build: Implements a gradient boosting survival model with Multiple Imputation by Chained Equations (MICE)
+  * mice_gbm_build: Trains a gradient boosting survival model with Multiple Imputation by Chained Equations (MICE)
   * final_model_build: Trains the gradient boosting survival model on the complete dataset for web tool deployment
 
 3. Clinical Trial Analysis
   * rtrials_wt3r_33c_surv_metrics: Calculates survival metrics (Hazard Ratio, Restricted Mean Survival Time, median Overall Survival) for landmark clinical trials across phenotypes using key inclusion criteria
-  * strials_wt3r_33c_surv_metrics: Computes survival metrics using strict inclusion criteria
-  * rtrials_wt3r_33c_dc_surv_metrics: Evaluates survival metrics while accounting for appropriate initial chemotherapy dosing
+  * strials_wt3r_33c_surv_metrics: Calculated survival metrics using strict inclusion criteria
+  * rtrials_wt3r_33c_dc_surv_metrics: Calculates survival metrics while accounting for appropriate initial chemotherapy dosing
 
 ## Website
 Visit [here](https://trialtranslator.com) for the website version of this project. 
