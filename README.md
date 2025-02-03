@@ -8,7 +8,7 @@ TrialTranslator is a framework designed to expose heterogenity of treatment effe
 The framework operates in two steps. First, a ML survival model was constructed for each of the 4 cancers, allowing for individual patient mortality risk prediction at the time of metastatic diagnosis. Second, patients meeting the elgibility criteria for the RCTs of interest were stratified into one of three phenotypes (low, medium, and high risk) using ML models. Survival analysis was the performed, with metrics such as restricted mean survival time and median overall survival esetimated using inverse probabiliy of treatment weighted Kaplan-Meier survival curves. All analyses were conducted using the Flatiron Health database, which served as the source for both ML model training and trial emulation. 
 
 ## Notebooks
-The project was coded in Python, with all dependencies listed in the requirements.txt file.
+The project was coded in Python 3.8, with all dependencies listed in the requirements.txt file.
 
 The repository is organized into four cancer-specific directories (lung, breast, colorectal, and prostate). Each directory contains the following Jupyter notebooks:
 
