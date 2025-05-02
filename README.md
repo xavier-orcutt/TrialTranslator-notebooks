@@ -1,7 +1,7 @@
 # TrialTranslator-notebooks
 
 ## Introduction
-This repository contains Jupyter Notebooks demonstrating data cleaning, machine learning (ML) model development, and trial emulation for the TrialTranslator framework. 
+This repository contains Jupyter Notebooks demonstrating data cleaning, machine learning (ML) model development, and trial emulation for the TrialTranslator framework. The associated research is published in [Nature Medicine](https://www.nature.com/articles/s41591-024-03352-5). 
 
 TrialTranslator is a framework designed to expose heterogenity of treatment effects among real-world oncology patients by emulating landmark Phase III RCTs across prognostic phenotypes identified through a ML algorithm. A total of 11 RCTs were emulated across 4 different cancer types: advanced NSCLC, metastatic breast, metastatic prostate, and metastatic colorectal. 
 
